@@ -40,7 +40,7 @@ There is class imbalance within the variables that will be used for both decisio
 algorithm to over-sample the minority classes.
 Analysis also highlighted the imbalance in the data intended for use for Association Analysis, 
 however, this is a categorical variable so will need to be encoded before use, this encoding 
-will remove the need to scale or normalise the data, this process is described below.
+will remove the need to scale or normalise the data.
 
 ### Model Construction
 #### What are the trends of callouts? 
@@ -80,7 +80,7 @@ to identify if current provision is cost effective.
 
 _More plots are in the [notebook](https://github.com/tj2904/lfb-callout-analysis/blob/main/LFB_Analysis.ipynb)_
 
-It  is clear that false alarms are a key demand upon the resources of LFB, which suggests that any reduction in these 
+It  is clear that false alarms are a key demand upon the resources of LFB, which suggests that any reduction in attending these 
 would yield cost and service quality benefits. Models have demonstrated some ability to predict false alarms, but further 
 work is needed to achieve the levels of accuracy that would be found acceptable. 
 
@@ -95,5 +95,5 @@ large multi-person dwellings such as tower blocks do not appear to be more likel
 This section presents a summary of the findings along with recommendations for LFB.
 It is suggested that LFB look into the false alarm rate at Chiswick as this is particularly high, proportionally, for the 
 borough they also attend far fewer incidents, addressing this may support and improvement in the service.
-Increase in the four wards maybe due to a rise in housing, identifying if this is the case, and reviewing existing plans 
+The increase in the four wards maybe due to a rise in housing, identifying if this is the case, and reviewing existing plans 
 for further housing expansion would support future service provision planning.
